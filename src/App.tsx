@@ -36,10 +36,10 @@ function App() {
         <h1 className='text-2xl font-serif font-bold'>anythreewords</h1>
         <div className='flex flex-col bg-cyan-300 w-80 max-w-full p-1'>
           <div className='flex justify-between items-center'>
-            <p className='font-serif text-xs m-0'>your three words:</p>
+            <p className='font-serif text-xs'>your three words:</p>
             <Refresh className='cursor-pointer' size={14} onClick={newWords} />
           </div>
-          <div className='m-3 font-serif font-bold'>{words}</div>
+          <div className='m-3 font-serif font-bold text-center'>{words}</div>
         </div>
         <div className='video-responsive flex flex-col items-center w-100'>
           <iframe
