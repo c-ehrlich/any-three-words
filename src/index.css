@@ -2,18 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  width: 400px;
-  height: 300px;
+.image {
+  max-width: 320px;
 }
-
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  width: 400px;
-  height: 300px;
-  position: absolute;
+@media (max-width: 340px) {
+  .image {
+    max-width: 100%;
+  }
 }
